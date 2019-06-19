@@ -5,22 +5,12 @@
     <title>Title</title>
 </head>
 <body>
+<div id = "Message"></div>
+<button type="button" onclick="showMessage();">Click di!</button>
 <script>
-    let a = prompt("nhap so a");
-    let b = prompt("nhap so b");
-    let c = prompt("nhap so c");
-    let max = a;
-    if (b > a) {
-        if (c > b) {
-            max = c;
-        } else
-            max = b;
-    } else if (c > a) {
-        max = c;
-    } else {
-        max = a;
+    function showMessage(){
+        document.getElementById('Message').innerHTML = 'xin chao!';
     }
-    document.write("so lon nhat la " + max);
 </script>
 </body>
 </html>
