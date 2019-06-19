@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt("nhap so a");
+    let b = prompt("nhap so b");
+    let c = prompt("nhap so c");
+    let max = a;
+    if (b > a) {
+        if (c > b) {
+            max = c;
+        } else
+            max = b;
+    } else if (c > a) {
+        max = c;
+    } else {
+        max = a;
+    }
+    document.write("so lon nhat la " + max);
+</script>
+</body>
+</html>
