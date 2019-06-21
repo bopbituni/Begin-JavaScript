@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>abc.com</title>
+    <meta charset="UTF-8">
+
+</head>
+<style>
+    th {
+        width: 150px;
+        border: 2px;
+        height: 25px;
+    }
+
+    td {
+        width: 150px;
+        border: 2px solid white;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        background: white;
+    }
+
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th>Ammount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input id="a" type="text"></td>
+        <td><select id="b">
+            <option value="23000">Vietnam</option>
+            <option value="1">America</option>
+        </select></td>
+        <td><select id="c">
+            <option value="1">America</option>
+            <option value="23000">Vietnam</option>
+        </select></td>
+        <td>
+            <button type="button" onclick="tienTe() ">Convert</button>
+        </td>
+    </tr>
+</table>
+<p>Result:</p>
+<br>
+<p id="sotien"></p>
+
+</body>
+<script src="scrip.js"></script>
+</html>
